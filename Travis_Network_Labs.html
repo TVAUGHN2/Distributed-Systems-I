@@ -1,0 +1,152 @@
+
+<html>
+<head> <title> Wireshark Checklist </title>
+</head>
+<body>
+
+<FONT FACE="Cambria" SIZE=1>
+2.1
+<br>
+Updates:
+<ol>
+<li> none
+</ol>
+
+
+<FONT FACE="Cambria" SIZE=4>
+<center> <h2> WireShark Checklist </h2> </center> <p>
+
+<br> 
+
+Change "No" to "Yes" as you complete the tasks. Submit to D2L when complete:<p>
+
+<table border=1 width="50%" >
+
+<tr><td align="Left"><b> <FONT FACE="Cambria" SIZE=5>Task
+</font></b></td>
+<td align="Left"><b><FONT FACE="Cambria" SIZE=5> Complete? </task> 
+</b></td></tr>
+
+<tr> <td align="left"><b>
+My name is...
+</b></td><td align="left"><b>
+Travis Vaughn                  </b></td></tr>
+
+<tr> <td align="left"><b>
+I have installed and run WireShark
+</b></td><td align="left"><b>
+Yes                    </b></td></tr>
+
+<tr> <td align="left"><b>
+I have completed the Intro lab</b></td><td align="left"><b>
+Yes                    </b></td></tr>
+
+<tr> <td align="left"><b>
+I have completed the IP lab
+</b></td><td align="left"><b>
+Yes                    </b></td></tr>
+
+<tr> <td align="left"><b>
+I have completed the DNS lab
+</b></td><td align="left"><b>
+Yes                   </b></td></tr>
+
+<tr> <td align="left"><b>
+I have completed the HTTP lab
+</b></td><td align="left"><b>
+Yes                    </b></td></tr>
+
+<tr> <td align="left"><b>
+I have completed the TCP lab
+</b></td><td align="left"><b>
+Yes                    </b></td></tr>
+
+<tr> <td align="left"><b>
+I have completed the UDP lab
+</b></td><td align="left"><b>
+Yes                    </b></td></tr>
+
+<tr> <td align="left"><b>
+I have completed the SSL lab
+</b></td><td align="left"><b>
+Yes                    </b></td></tr>
+
+<tr> <td align="left"><b>
+I have inserted my one-page write-up into the bottom of the checklist.
+</b></td><td align="left"><b>
+Yes          </b></td></tr>
+
+<tr> <td align="left"><b>
+I will have submitted this checklist to D2L
+</b></td><td align="left"><b>
+Yes          </b></td></tr>
+
+<tr> <td align="left"><b>
+Bragging Rights Below ---------------------
+</b></td><td align="left"><b>
+This Line          </b></td></tr>
+
+<tr> <td align="left"><b>
+I did something cool and posted it at the discussion forum
+</b></td><td align="left"><b>
+No          </b></td></tr>
+
+</table>
+
+<h3> My One Page Writeup: </h3>
+
+I installed the Windows 64 bit Wireshark on my Windows 8.1 computer.
+Afterwards, I began the into lab. I searched the gaia.cs link and reviewed the data
+that the questions asked about. <p>
+
+I worked on the IP lab.  The lab writeup vs. my actual experience
+were a little different.  Most likely due to versioning. I initially
+looked one of the default addresses in pingplotter (google) but 
+soon found out the format returned in Wireshark for that type of
+website was much different than say reed.cs.depaul.edu. So I ended
+up using that website to work through the problems in the lab. <p>
+
+Then I worked through the DNS lab.  Again the results from the lab vs. my queries were
+a little different. For instance the writeup still seems be under the assumption that 
+only ipv4 exists.  When it told me to filter my requests, I put in my ipv4 address
+into Wireshark, but quickly had to remove it as Wireshark was picking up my ipv6
+address which is much different than the "typical" ip address. I used ipconfig to 
+find out information and history for my computer, then I flushed it and cleared
+my browser history in order to begin packet capture by Wireshark. I worked through 
+the questions in the lab and compared looking up a web server via a browser, via
+standard nslookup, and via nslookup -type=NS. <p>
+
+For the HTTP lab, I cleared my browsing history and visited a couple different websites. 
+I compared a website that updated its page every minute versus a static page and revisted
+both pages multiple times to understand what happens when a page has not been modified. 
+Then I worked on browsing for longer html text and learned how TCP needs to split up longer
+messages over multiple packets. Next, I needed to browse for html pages with embedded objects,
+in this case, pictures. The website only loaded on page, so I ended up going to other web 
+pages with pictures. I moved on to the authentication part of the lab where I entered in 
+a username and password to access the site. Was extremely surprised to find that I could 
+converted the username and password to the ASCII characters by converting the Base64 characters
+from the sniffer. Finally as I was working through each section, I answered all of the
+questions.  It was helpful specifically see all of the different responses you could get
+(no pun intended) from the server (OK, Moved Permanently, Found, Unauthorized, etc.). <p>
+
+With the TCP lab, I first started by uploading a copy of alice.txt to the umass website to see
+how the packet was handled when I needed to upload a file. From there I analyzed the SYN segment
+of the TCP packets, the SYNACK, and the HTTP POST. Digging through the TCP segments to find the
+POST command was a little difficult. After that, I looked up the Round Trip Time for some TCP
+packets.  This part was a little quirky as I had to select another graph and then come back to 
+the Round Trip Time graph in order for data to populate on the graph. I then looked up the time-
+sequence-graph (stevens) on the packets. My graph differed from the one shown.  Where as he had more
+packets of short height, I had less packets of longer height. I finished up the lab and worked through
+the questions as I worked through the lab. <p>
+
+The UDP lab was a much shorter lab than the rest.  I captured some UDP packets and worked through the
+questions in the lab. It was a nice lab to show UDP as an alternative to TCP for lower-latency connections
+between apps on the internet. Otherwise wasn't a particularly in depth lab. <p>
+
+For my final lab in SSL, I ended up going to the Domino's website to purchase a pizza (because honestly 
+their garlic crust is to-die-for). One thing I noticed of my traces vs. the book's traces, we're using a 
+different protocol version. While they use SSLv3, I'm using TLSv1.2. I ended up reading up on TLS and realized
+TLS offers a stronger key derivation process and is less vunerable. I worked through the questions from the lab
+and learned how sending secure messages over the internet works (Client hello, handshakes, key exchanges, etc.) <p>
+
+</body></html>

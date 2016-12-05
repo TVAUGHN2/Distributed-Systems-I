@@ -1,0 +1,1245 @@
+
+
+GET Method from client: GET /docs/ HTTP/1.1
+Host from client: Accept: text/html, application/xhtml+xml, */*
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 178
+Content Type header sent to client: Content-Type: text/html
+path sent to returnRules: docs/
+returnFiles strFilesDir[i]: cat.html
+returnFiles strFilesDir[i]: dog.txt
+returnFiles strFilesDir[i]: mydir
+returnFiles strFilesDir[i]: testdir
+
+
+GET Method from client: GET /docs/testdir/ HTTP/1.1
+Host from client: Accept: text/html, application/xhtml+xml, */*
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 80
+Content Type header sent to client: Content-Type: text/html
+path sent to returnRules: docs/testdir/
+returnFiles strFilesDir[i]: hello.txt
+
+
+GET Method from client: GET /docs/ HTTP/1.1
+Host from client: Accept: text/html, application/xhtml+xml, */*
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 178
+Content Type header sent to client: Content-Type: text/html
+path sent to returnRules: docs/
+returnFiles strFilesDir[i]: cat.html
+returnFiles strFilesDir[i]: dog.txt
+returnFiles strFilesDir[i]: mydir
+returnFiles strFilesDir[i]: testdir
+
+
+GET Method from client: GET /docs/cat.html HTTP/1.1
+Host from client: Accept: text/html, application/xhtml+xml, */*
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 664
+Content Type header sent to client: Content-Type: text/html
+
+
+GET Method from client: GET /docs/dog.txt HTTP/1.1
+Host from client: Accept: text/html, application/xhtml+xml, */*
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 675
+Content Type header sent to client: Content-Type: text/plain
+
+
+GET Method from client: GET /addnums.html HTTP/1.1
+Host from client: Accept: text/html, application/xhtml+xml, */*
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 460
+Content Type header sent to client: Content-Type: text/html
+
+
+GET Method from client: GET /addnums.fake-cgi?person=Travis&num1=24356&num2=3232 HTTP/1.1
+Host from client: Accept: text/html, application/xhtml+xml, */*
+Script name: Travis
+Script val: 24356
+Script val2: 3232
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 59
+Content Type header sent to client: Content-Type: text/html
+Script String that was parsed: person=Travis&num1=24356&num2=3232 
+
+
+GET Method from client: GET / HTTP/1.1
+Host from client: Accept: text/html, application/xhtml+xml, */*
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 833
+Content Type header sent to client: Content-Type: text/html
+path sent to returnRules: ./
+returnFiles strFilesDir[i]: addnums.fake-cgi
+returnFiles strFilesDir[i]: addnums.html
+returnFiles strFilesDir[i]: checklist-mywebserver.html
+returnFiles strFilesDir[i]: docs
+returnFiles strFilesDir[i]: favicon.ico
+returnFiles strFilesDir[i]: GET.class
+returnFiles strFilesDir[i]: http-streams.txt
+returnFiles strFilesDir[i]: MyListener.class
+returnFiles strFilesDir[i]: MyListener.java
+returnFiles strFilesDir[i]: MyTelnet.class
+returnFiles strFilesDir[i]: MyTelnet.java
+returnFiles strFilesDir[i]: MyWebServer.class
+returnFiles strFilesDir[i]: MyWebServer.java
+returnFiles strFilesDir[i]: ScriptVal.class
+returnFiles strFilesDir[i]: serverlog.txt
+returnFiles strFilesDir[i]: Worker.class
+
+
+GET Method from client: GET // HTTP/1.1
+Host from client: Accept: text/html, application/xhtml+xml, */*
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 47
+Content Type header sent to client: Content-Type: text/html
+path sent to returnRules: /
+
+
+GET Method from client: GET / HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 939
+Content Type header sent to client: Content-Type: text/html
+path sent to returnRules: ./
+returnFiles strFilesDir[i]: addnums.fake-cgi
+returnFiles strFilesDir[i]: addnums.html
+returnFiles strFilesDir[i]: checklist-mywebserver.html
+returnFiles strFilesDir[i]: docs
+returnFiles strFilesDir[i]: favicon.ico
+returnFiles strFilesDir[i]: GET.class
+returnFiles strFilesDir[i]: http-streams.txt
+returnFiles strFilesDir[i]: MyListener.class
+returnFiles strFilesDir[i]: MyListener.java
+returnFiles strFilesDir[i]: MyTelnet.class
+returnFiles strFilesDir[i]: MyTelnet.java
+returnFiles strFilesDir[i]: MyWebServer.class
+returnFiles strFilesDir[i]: MyWebServer.java
+returnFiles strFilesDir[i]: MyWebServer.txt
+returnFiles strFilesDir[i]: MyWebServer2.zip
+returnFiles strFilesDir[i]: ScriptVal.class
+returnFiles strFilesDir[i]: serverlog.txt
+returnFiles strFilesDir[i]: Worker.class
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+
+Content Type header sent to client: Content-Type: 
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /docs/ HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 178
+Content Type header sent to client: Content-Type: text/html
+path sent to returnRules: docs/
+returnFiles strFilesDir[i]: cat.html
+returnFiles strFilesDir[i]: dog.txt
+returnFiles strFilesDir[i]: mydir
+returnFiles strFilesDir[i]: testdir
+
+
+GET Method from client: GET /docs/cat.html HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 664
+Content Type header sent to client: Content-Type: text/html
+
+
+GET Method from client: GET /docs/dog.txt HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 675
+Content Type header sent to client: Content-Type: text/plain
+
+
+GET Method from client: GET /docs/mydir/ HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 80
+Content Type header sent to client: Content-Type: text/html
+path sent to returnRules: docs/mydir/
+returnFiles strFilesDir[i]: mytest.txt
+
+
+GET Method from client: GET /docs/mydir/mytest.txt HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 33
+Content Type header sent to client: Content-Type: text/plain
+
+
+GET Method from client: GET /addnums.html HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 460
+Content Type header sent to client: Content-Type: text/html
+
+
+GET Method from client: GET /addnums.fake-cgi?person=Travis&num1=200&num2=120 HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: Travis
+Script val: 200
+Script val2: 120
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 54
+Content Type header sent to client: Content-Type: text/html
+Script String that was parsed: person=Travis&num1=200&num2=120 
+
+
+GET Method from client: GET // HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 47
+Content Type header sent to client: Content-Type: text/html
+path sent to returnRules: /
+
+
+GET Method from client: GET / HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 939
+Content Type header sent to client: Content-Type: text/html
+path sent to returnRules: ./
+returnFiles strFilesDir[i]: addnums.fake-cgi
+returnFiles strFilesDir[i]: addnums.html
+returnFiles strFilesDir[i]: checklist-mywebserver.html
+returnFiles strFilesDir[i]: docs
+returnFiles strFilesDir[i]: favicon.ico
+returnFiles strFilesDir[i]: GET.class
+returnFiles strFilesDir[i]: http-streams.txt
+returnFiles strFilesDir[i]: MyListener.class
+returnFiles strFilesDir[i]: MyListener.java
+returnFiles strFilesDir[i]: MyTelnet.class
+returnFiles strFilesDir[i]: MyTelnet.java
+returnFiles strFilesDir[i]: MyWebServer.class
+returnFiles strFilesDir[i]: MyWebServer.java
+returnFiles strFilesDir[i]: MyWebServer.txt
+returnFiles strFilesDir[i]: MyWebServer2.zip
+returnFiles strFilesDir[i]: ScriptVal.class
+returnFiles strFilesDir[i]: serverlog.txt
+returnFiles strFilesDir[i]: Worker.class
+
+
+GET Method from client: GET / HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 939
+Content Type header sent to client: Content-Type: text/html
+path sent to returnRules: ./
+returnFiles strFilesDir[i]: addnums.fake-cgi
+returnFiles strFilesDir[i]: addnums.html
+returnFiles strFilesDir[i]: checklist-mywebserver.html
+returnFiles strFilesDir[i]: docs
+returnFiles strFilesDir[i]: favicon.ico
+returnFiles strFilesDir[i]: GET.class
+returnFiles strFilesDir[i]: http-streams.txt
+returnFiles strFilesDir[i]: MyListener.class
+returnFiles strFilesDir[i]: MyListener.java
+returnFiles strFilesDir[i]: MyTelnet.class
+returnFiles strFilesDir[i]: MyTelnet.java
+returnFiles strFilesDir[i]: MyWebServer.class
+returnFiles strFilesDir[i]: MyWebServer.java
+returnFiles strFilesDir[i]: MyWebServer.txt
+returnFiles strFilesDir[i]: MyWebServer2.zip
+returnFiles strFilesDir[i]: ScriptVal.class
+returnFiles strFilesDir[i]: serverlog.txt
+returnFiles strFilesDir[i]: Worker.class
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /MyWebServer.java HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 13024
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /MyWebServer.class HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 817
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /docs/ HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 630
+Content Type header sent to client: Content-Type: text/html
+path sent to returnRules: docs/
+returnFiles strFilesDir[i]: addnums.fake-cgi
+returnFiles strFilesDir[i]: cat.html
+returnFiles strFilesDir[i]: dog.txt
+returnFiles strFilesDir[i]: GET.class
+returnFiles strFilesDir[i]: mydir
+returnFiles strFilesDir[i]: MyListener.class
+returnFiles strFilesDir[i]: MyListener.java
+returnFiles strFilesDir[i]: MyTelnet.class
+returnFiles strFilesDir[i]: MyTelnet.java
+returnFiles strFilesDir[i]: MyWebServer.class
+returnFiles strFilesDir[i]: ScriptVal.class
+returnFiles strFilesDir[i]: testdir
+returnFiles strFilesDir[i]: Worker.class
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET / HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 803
+Content Type header sent to client: Content-Type: text/html
+path sent to returnRules: ./
+returnFiles strFilesDir[i]: addnums.fake-cgi
+returnFiles strFilesDir[i]: addnums.html
+returnFiles strFilesDir[i]: checklist-mywebserver.html
+returnFiles strFilesDir[i]: docs
+returnFiles strFilesDir[i]: favicon.ico
+returnFiles strFilesDir[i]: GET.class
+returnFiles strFilesDir[i]: http-streams.txt
+returnFiles strFilesDir[i]: MyWebServer-txt.txt
+returnFiles strFilesDir[i]: MyWebServer-txt.zip
+returnFiles strFilesDir[i]: MyWebServer.class
+returnFiles strFilesDir[i]: MyWebServer.java
+returnFiles strFilesDir[i]: MyWebServer3.zip
+returnFiles strFilesDir[i]: ScriptVal.class
+returnFiles strFilesDir[i]: serverlog.txt
+returnFiles strFilesDir[i]: Worker.class
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /docs/ HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 630
+Content Type header sent to client: Content-Type: text/html
+path sent to returnRules: docs/
+returnFiles strFilesDir[i]: addnums.fake-cgi
+returnFiles strFilesDir[i]: cat.html
+returnFiles strFilesDir[i]: dog.txt
+returnFiles strFilesDir[i]: GET.class
+returnFiles strFilesDir[i]: mydir
+returnFiles strFilesDir[i]: MyListener.class
+returnFiles strFilesDir[i]: MyListener.java
+returnFiles strFilesDir[i]: MyTelnet.class
+returnFiles strFilesDir[i]: MyTelnet.java
+returnFiles strFilesDir[i]: MyWebServer.class
+returnFiles strFilesDir[i]: ScriptVal.class
+returnFiles strFilesDir[i]: testdir
+returnFiles strFilesDir[i]: Worker.class
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /docs/mydir/ HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 80
+Content Type header sent to client: Content-Type: text/html
+path sent to returnRules: docs/mydir/
+returnFiles strFilesDir[i]: mytest.txt
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /docs/mydir/mytest.txt HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 33
+Content Type header sent to client: Content-Type: text/plain
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /docs/addnums.fake-cgi HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 460
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET / HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 803
+Content Type header sent to client: Content-Type: text/html
+path sent to returnRules: ./
+returnFiles strFilesDir[i]: addnums.fake-cgi
+returnFiles strFilesDir[i]: addnums.html
+returnFiles strFilesDir[i]: checklist-mywebserver.html
+returnFiles strFilesDir[i]: docs
+returnFiles strFilesDir[i]: favicon.ico
+returnFiles strFilesDir[i]: GET.class
+returnFiles strFilesDir[i]: http-streams.txt
+returnFiles strFilesDir[i]: MyWebServer-txt.txt
+returnFiles strFilesDir[i]: MyWebServer-txt.zip
+returnFiles strFilesDir[i]: MyWebServer.class
+returnFiles strFilesDir[i]: MyWebServer.java
+returnFiles strFilesDir[i]: MyWebServer3.zip
+returnFiles strFilesDir[i]: ScriptVal.class
+returnFiles strFilesDir[i]: serverlog.txt
+returnFiles strFilesDir[i]: Worker.class
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /addnums.html HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 460
+Content Type header sent to client: Content-Type: text/html
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /addnums.fake-cgi?person=Carolyn&num1=500&num2=235 HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: Carolyn
+Script val: 500
+Script val2: 235
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 55
+Content Type header sent to client: Content-Type: text/html
+Script String that was parsed: person=Carolyn&num1=500&num2=235 
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET // HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 47
+Content Type header sent to client: Content-Type: text/html
+path sent to returnRules: /
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET / HTTP/1.1
+Host from client: Accept: text/html, application/xhtml+xml, */*
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 803
+Content Type header sent to client: Content-Type: text/html
+path sent to returnRules: ./
+returnFiles strFilesDir[i]: addnums.fake-cgi
+returnFiles strFilesDir[i]: addnums.html
+returnFiles strFilesDir[i]: checklist-mywebserver.html
+returnFiles strFilesDir[i]: docs
+returnFiles strFilesDir[i]: favicon.ico
+returnFiles strFilesDir[i]: GET.class
+returnFiles strFilesDir[i]: http-streams.txt
+returnFiles strFilesDir[i]: MyWebServer-txt.txt
+returnFiles strFilesDir[i]: MyWebServer-txt.zip
+returnFiles strFilesDir[i]: MyWebServer.class
+returnFiles strFilesDir[i]: MyWebServer.java
+returnFiles strFilesDir[i]: MyWebServer3.zip
+returnFiles strFilesDir[i]: ScriptVal.class
+returnFiles strFilesDir[i]: serverlog.txt
+returnFiles strFilesDir[i]: Worker.class
+
+
+GET Method from client: GET / HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 803
+Content Type header sent to client: Content-Type: text/html
+path sent to returnRules: ./
+returnFiles strFilesDir[i]: addnums.fake-cgi
+returnFiles strFilesDir[i]: addnums.html
+returnFiles strFilesDir[i]: checklist-mywebserver.html
+returnFiles strFilesDir[i]: docs
+returnFiles strFilesDir[i]: favicon.ico
+returnFiles strFilesDir[i]: GET.class
+returnFiles strFilesDir[i]: http-streams.txt
+returnFiles strFilesDir[i]: MyWebServer-txt.txt
+returnFiles strFilesDir[i]: MyWebServer-txt.zip
+returnFiles strFilesDir[i]: MyWebServer.class
+returnFiles strFilesDir[i]: MyWebServer.java
+returnFiles strFilesDir[i]: MyWebServer3.zip
+returnFiles strFilesDir[i]: ScriptVal.class
+returnFiles strFilesDir[i]: serverlog.txt
+returnFiles strFilesDir[i]: Worker.class
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /addnums.html HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 460
+Content Type header sent to client: Content-Type: text/html
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /addnums.fake-cgi?person=Travis&num1=4&num2=5 HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: Travis
+Script val: 4
+Script val2: 5
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 48
+Content Type header sent to client: Content-Type: text/html
+Script String that was parsed: person=Travis&num1=4&num2=5 
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /addnums.html HTTP/1.1
+Host from client: Accept: text/html, application/xhtml+xml, */*
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 460
+Content Type header sent to client: Content-Type: text/html
+
+
+GET Method from client: GET /addnums.fake-cgi?person=Carolyn&num1=4&num2=5 HTTP/1.1
+Host from client: Accept: text/html, application/xhtml+xml, */*
+Script name: Carolyn
+Script val: 4
+Script val2: 5
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 49
+Content Type header sent to client: Content-Type: text/html
+Script String that was parsed: person=Carolyn&num1=4&num2=5 
+
+
+GET Method from client: GET / HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 803
+Content Type header sent to client: Content-Type: text/html
+path sent to returnRules: ./
+returnFiles strFilesDir[i]: addnums.fake-cgi
+returnFiles strFilesDir[i]: addnums.html
+returnFiles strFilesDir[i]: checklist-mywebserver.html
+returnFiles strFilesDir[i]: docs
+returnFiles strFilesDir[i]: favicon.ico
+returnFiles strFilesDir[i]: GET.class
+returnFiles strFilesDir[i]: http-streams.txt
+returnFiles strFilesDir[i]: MyWebServer-txt.txt
+returnFiles strFilesDir[i]: MyWebServer-txt.zip
+returnFiles strFilesDir[i]: MyWebServer.class
+returnFiles strFilesDir[i]: MyWebServer.java
+returnFiles strFilesDir[i]: MyWebServer3.zip
+returnFiles strFilesDir[i]: ScriptVal.class
+returnFiles strFilesDir[i]: serverlog.txt
+returnFiles strFilesDir[i]: Worker.class
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /docs/ HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 630
+Content Type header sent to client: Content-Type: text/html
+path sent to returnRules: docs/
+returnFiles strFilesDir[i]: addnums.fake-cgi
+returnFiles strFilesDir[i]: cat.html
+returnFiles strFilesDir[i]: dog.txt
+returnFiles strFilesDir[i]: GET.class
+returnFiles strFilesDir[i]: mydir
+returnFiles strFilesDir[i]: MyListener.class
+returnFiles strFilesDir[i]: MyListener.java
+returnFiles strFilesDir[i]: MyTelnet.class
+returnFiles strFilesDir[i]: MyTelnet.java
+returnFiles strFilesDir[i]: MyWebServer.class
+returnFiles strFilesDir[i]: ScriptVal.class
+returnFiles strFilesDir[i]: testdir
+returnFiles strFilesDir[i]: Worker.class
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /docs/cat.html HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 664
+Content Type header sent to client: Content-Type: text/html
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET / HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 665
+Content Type header sent to client: Content-Type: text/html
+path sent to returnRules: ./
+returnFiles strFilesDir[i]: addnums.fake-cgi
+returnFiles strFilesDir[i]: addnums.html
+returnFiles strFilesDir[i]: checklist-mywebserver.html
+returnFiles strFilesDir[i]: docs
+returnFiles strFilesDir[i]: favicon.ico
+returnFiles strFilesDir[i]: http-streams.txt
+returnFiles strFilesDir[i]: MyWebServer-txt.txt
+returnFiles strFilesDir[i]: MyWebServer-txt2.zip
+returnFiles strFilesDir[i]: MyWebServer.java
+returnFiles strFilesDir[i]: MyWebServer3.zip
+returnFiles strFilesDir[i]: MyWebServer4.zip
+returnFiles strFilesDir[i]: serverlog.txt
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /docs/ HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 630
+Content Type header sent to client: Content-Type: text/html
+path sent to returnRules: docs/
+returnFiles strFilesDir[i]: addnums.fake-cgi
+returnFiles strFilesDir[i]: cat.html
+returnFiles strFilesDir[i]: dog.txt
+returnFiles strFilesDir[i]: GET.class
+returnFiles strFilesDir[i]: mydir
+returnFiles strFilesDir[i]: MyListener.class
+returnFiles strFilesDir[i]: MyListener.java
+returnFiles strFilesDir[i]: MyTelnet.class
+returnFiles strFilesDir[i]: MyTelnet.java
+returnFiles strFilesDir[i]: MyWebServer.class
+returnFiles strFilesDir[i]: ScriptVal.class
+returnFiles strFilesDir[i]: testdir
+returnFiles strFilesDir[i]: Worker.class
+
+
+GET Method from client: GET /docs/cat.html HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 664
+Content Type header sent to client: Content-Type: text/html
+
+
+GET Method from client: GET /docs/dog.txt HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 675
+Content Type header sent to client: Content-Type: text/plain
+
+
+GET Method from client: GET /docs/mydir/ HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 80
+Content Type header sent to client: Content-Type: text/html
+path sent to returnRules: docs/mydir/
+returnFiles strFilesDir[i]: mytest.txt
+
+
+GET Method from client: GET /docs/mydir/mytest.txt HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 33
+Content Type header sent to client: Content-Type: text/plain
+
+
+GET Method from client: GET / HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 665
+Content Type header sent to client: Content-Type: text/html
+path sent to returnRules: ./
+returnFiles strFilesDir[i]: addnums.fake-cgi
+returnFiles strFilesDir[i]: addnums.html
+returnFiles strFilesDir[i]: checklist-mywebserver.html
+returnFiles strFilesDir[i]: docs
+returnFiles strFilesDir[i]: favicon.ico
+returnFiles strFilesDir[i]: http-streams.txt
+returnFiles strFilesDir[i]: MyWebServer-txt.txt
+returnFiles strFilesDir[i]: MyWebServer-txt2.zip
+returnFiles strFilesDir[i]: MyWebServer.java
+returnFiles strFilesDir[i]: MyWebServer3.zip
+returnFiles strFilesDir[i]: MyWebServer4.zip
+returnFiles strFilesDir[i]: serverlog.txt
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /addnums.html HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 460
+Content Type header sent to client: Content-Type: text/html
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /addnums.fake-cgi?person=Tr&num1=335&num2=23 HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: Tr
+Script val: 335
+Script val2: 23
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 49
+Content Type header sent to client: Content-Type: text/html
+Script String that was parsed: person=Tr&num1=335&num2=23 
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /docs/addnums.fake-cgi HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 460
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET / HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 665
+Content Type header sent to client: Content-Type: text/html
+path sent to returnRules: ./
+returnFiles strFilesDir[i]: addnums.fake-cgi
+returnFiles strFilesDir[i]: addnums.html
+returnFiles strFilesDir[i]: checklist-mywebserver.html
+returnFiles strFilesDir[i]: docs
+returnFiles strFilesDir[i]: favicon.ico
+returnFiles strFilesDir[i]: http-streams.txt
+returnFiles strFilesDir[i]: MyWebServer-txt.txt
+returnFiles strFilesDir[i]: MyWebServer-txt2.zip
+returnFiles strFilesDir[i]: MyWebServer.java
+returnFiles strFilesDir[i]: MyWebServer3.zip
+returnFiles strFilesDir[i]: MyWebServer4.zip
+returnFiles strFilesDir[i]: serverlog.txt
+
+
+GET Method from client: GET /addnums.html HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 460
+Content Type header sent to client: Content-Type: text/html
+
+
+GET Method from client: GET /addnums.fake-cgi?person=Travis&num1=4&num2=5 HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: Travis
+Script val: 4
+Script val2: 5
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 48
+Content Type header sent to client: Content-Type: text/html
+Script String that was parsed: person=Travis&num1=4&num2=5 
+
+
+GET Method from client: GET / HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 665
+Content Type header sent to client: Content-Type: text/html
+path sent to returnRules: ./
+returnFiles strFilesDir[i]: addnums.fake-cgi
+returnFiles strFilesDir[i]: addnums.html
+returnFiles strFilesDir[i]: checklist-mywebserver.html
+returnFiles strFilesDir[i]: docs
+returnFiles strFilesDir[i]: favicon.ico
+returnFiles strFilesDir[i]: http-streams.txt
+returnFiles strFilesDir[i]: MyWebServer-txt.txt
+returnFiles strFilesDir[i]: MyWebServer-txt2.zip
+returnFiles strFilesDir[i]: MyWebServer.java
+returnFiles strFilesDir[i]: MyWebServer3.zip
+returnFiles strFilesDir[i]: MyWebServer4.zip
+returnFiles strFilesDir[i]: serverlog.txt
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /checklist-mywebserver.html HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 6365
+Content Type header sent to client: Content-Type: text/html
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /http-streams.txt HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 3258
+Content Type header sent to client: Content-Type: text/plain
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 

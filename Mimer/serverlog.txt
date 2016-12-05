@@ -1,0 +1,95 @@
+/*note:removed previous log entries to reduce clutter. This is final log entry*/
+
+GET Method from client: GET / HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 3671
+Content Type header sent to client: Content-Type: text/html
+path sent to returnRules: ./
+returnFiles strFilesDir[i]: BCHandler.class
+returnFiles strFilesDir[i]: BCHandler.java
+returnFiles strFilesDir[i]: checklist-mimer.html
+returnFiles strFilesDir[i]: favicon.ico
+returnFiles strFilesDir[i]: GET.class
+returnFiles strFilesDir[i]: HostServer
+returnFiles strFilesDir[i]: jcx.bat
+returnFiles strFilesDir[i]: jcxbchandler.bat
+returnFiles strFilesDir[i]: mimer-call.html
+returnFiles strFilesDir[i]: mimer-data.xyz
+returnFiles strFilesDir[i]: mimer-discussion.html
+returnFiles strFilesDir[i]: myDataArray.class
+returnFiles strFilesDir[i]: MyWebServer
+returnFiles strFilesDir[i]: MyWebServer.class
+returnFiles strFilesDir[i]: MyWebServer.java
+returnFiles strFilesDir[i]: rx.bat
+returnFiles strFilesDir[i]: ScriptVal.class
+returnFiles strFilesDir[i]: serverlog.txt
+returnFiles strFilesDir[i]: shim.bat
+returnFiles strFilesDir[i]: Worker.class
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /mimer-call.html HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 2563
+Content Type header sent to client: Content-Type: text/html
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+GET Method from client: GET /mimer-data.xyz HTTP/1.1
+Host from client: Host: localhost:2540
+Script name: 
+Script val: 0
+Script val2: 0
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 108
+Content Type header sent to client: Content-Type: application/xyz
+The XML marshaled data:
+<myDataArray>
+  <num__lines>7</num__lines>
+  <lines>
+    <string></string>
+    <string></string>
+    <string>One partridge in a pear tree</string>
+    <string>Two turtle doves</string>
+    <string>Three French hens</string>
+    <string>Four calling birds</string>
+    <string>Five golden rings</string>
+    <null/>
+  </lines>
+</myDataArray>
+
+
+Here is the restored data:
+
+
+One partridge in a pear tree
+Two turtle doves
+Three French hens
+Four calling birds
+Five golden rings

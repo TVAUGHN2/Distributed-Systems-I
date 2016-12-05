@@ -1,0 +1,106 @@
+
+
+
+
+GET Method from client: GET /docs/mydir/mytest.txt HTTP/1.1
+Host from client: Host: localhost:2540
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 33
+Content Type header sent to client: Content-Type: text/plain
+
+
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+
+
+GET Method from client: GET /docs/ HTTP/1.1
+Host from client: Host: localhost:2540
+Pathname sent to returnRules: docs/
+returnFiles strFilesDir[i]: cat.html
+returnFiles strFilesDir[i]: dog.txt
+returnFiles strFilesDir[i]: mydir
+returnFiles strFilesDir[i]: testdir
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 178
+Content Type header sent to client: Content-Type: text/html
+
+
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+
+
+GET Method from client: GET /docs/cat.html HTTP/1.1
+Host from client: Host: localhost:2540
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 664
+Content Type header sent to client: Content-Type: text/html
+
+
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+
+
+GET Method from client: GET /docs/testdir/ HTTP/1.1
+Host from client: Host: localhost:2540
+Pathname sent to returnRules: docs/testdir/
+returnFiles strFilesDir[i]: hello.txt
+HTTP header sent to client: HTTP/1.1 200 OK
+
+
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Content Length header sent to client: Content-Length: 80
+Host from client: Host: localhost:2540
+Content Type header sent to client: Content-Type: text/html
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 
+
+
+
+
+GET Method from client: GET /docs/testdir/hello.txt HTTP/1.1
+Host from client: Host: localhost:2540
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 33
+Content Type header sent to client: Content-Type: text/plain
+
+
+
+
+GET Method from client: GET /favicon.ico HTTP/1.1
+Host from client: Host: localhost:2540
+HTTP header sent to client: HTTP/1.1 200 OK
+Content Length header sent to client: Content-Length: 116292
+Content Type header sent to client: Content-Type: 

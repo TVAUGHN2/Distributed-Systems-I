@@ -1,0 +1,67 @@
+
+<html>
+<head> <title> Mimer Discussion </title>
+</head>
+<body>
+<FONT FACE="Cambria" SIZE=5>
+<center> <h3> Mimer Discussion</h3>
+</center>
+
+<FONT FACE="Cambria" SIZE=3>
+
+<strong> Overview: </strong>
+<ul>
+<p> 
+Overall I enjoyed this project a lot. It took me getting through the entire project to really be able to piece it all together. 
+I worked sequentially through the project (Steps 1-5).  The toughest part for me was understanding the concept of how the handler and shim.bat file worked together, followed by tying that all back together to the file extension logic. 
+Essentially what's happening, is that we are creating our own file type as well as our own way to handle that file. We're setting environment variables so that when we click on the file, our computer knows what "application" to use in order
+to process the request.  For instance, in our case, we tied shim.bat to .xyz so that anytime we processed a .xyz file, our computer initialized shim.bat which is a simple batch file that invokes our BCHandler, passing the file name of the original
+request. The BCHandler then ends up storing the data in a data structure that is normalized for the .xyz type (on the server and in BCHandler) such that we can serialize the data using the XML streams we import and send to the server. The server then
+desrializes the data and outputs the contents.  Essentially this project shows us how to process file types of created applications by sending the data to/from by marshaling. 
+</ul
+<br>
+<strong> Step 1: </strong>
+<ul>
+<p>
+This step was relatively smooth for me.  I ended up posting how to set the file extension for Windows 8 users on the D2L boards.
+Per the recommendation, I started with shim1.bat and then changed it back to shim.bat; same with .xy1 to .xyz.  
+It made sense after working through it a couple times.  The client side sees the file is .xyz and then triggers it to know
+that shim.bat needs to handle it.  Conceptually, I thought of how sometimes websites have .xlsx documents and the file automatically
+downloads using excel as the default program.   
+</ul>
+
+<strong> Step 2: </strong>
+<ul>
+<p>
+This step took the longest for me to conceptualize in the bigger picture of the project. I understand that the browser is selecting the .html file which is triggering
+the shim.bat file because that's the file associated with the .xyz file, so it runs that file. It passes the name of the .xyz file as
+the first argument (so that it looks like >shim [filename].xyz). The browser does this automatically.  
+
+While difficult to conceptualize, this process still did not take too long to work through the first time, but required multiple times reading through and re-running in order
+to understand. 
+</ul>
+<strong> Step 3: </strong>
+<ul>
+<p>
+For this step, I stopped by the xstream website. A student published the updated github location, so I went there to understand how the fromXML, toXML methods worked, 
+as well as understanding how to import/invoke the libraries (which I later realized were in the client). I initially forgot to update the paths of the batch files and wasn't 
+able to compile my programs. I realized I had to download the files, put them in my library location and update the batch compiler in order to link the libraries.  After that, 
+I worked through the BCClient adding my own comments.  
+</ul>
+<strong> Step 4: </strong>
+<ul>
+<p>
+There wasn't really much difference for me in this step vs. the jokeadmin handling.  I arranged the code provided in the proper locations, changing items that would not work
+with my program, and commenting to show I understood how the program works. I initially had some issues with the data output being cutoff by a couple characters and realized 
+it was because my content length wasn't taking into account the extra return characters (4 extra), so I ended up adjusting my webserver program to account for that. After that I 
+checked that temp file occured, data output correctly and that the client and server communicated correctly.  I updated comments within the program to show I understood the program. 
+</ul>
+<strong> Step 5: </strong>
+<ul>
+<p>
+This step took me a little time to conceptually understand what to do with "servername", since the BCClient allowed the option for users to enter a servername. I hard-coded to localhost after realizing
+our program is not being invoked from the command line and so the optional servername isn't necessary.  Figuring out how to combine the BCClient and Handler program took some time, until I realized the Handler
+should only matter for linking the shim.bat file to pass the file name, open the file, and store the data whereas the BCClient really just managed the serializing/deserializing of data and sending that to the server. 
+</ul>
+
+</body></html>
